@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="sy.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
+
+   <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    
+  </head>
+
+<body>
+
+  <!-- خلفية الفيديو -->
+  <video autoplay loop muted playsinline class="video-background">
+    <source src="assets/vido.mp4" type="video/mp4">
+  </video>
+
+  <!-- الإطار الأخضر الكامل -->
+  <div class="about-frame">
+
+    <!-- ✅ شريط المهام داخل الإطار -->
+    <header class="header">
+      <a href="#" class="logo"data-aos="zoom-in" data-aos-duration="1000" ><span style="color: #588467;">Reem</span>Alomari</a>
+      
+      <ul class="nav-links">
+        <li data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="100"><a class="active" href="#about">About</a></li>
+        <li data-aos="fade-up"   data-aos-duration="1000"data-aos-delay="200"><a href="#Skills">Skills</a></li>
+        <li data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="300"><a href="#projects">Projects</a></li>
+        <li data-aos="fade-up"   data-aos-duration="1000"data-aos-delay="400"> <a href="#Recommendations">Recommendations</a></li>
+        <li data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="500"><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <a href="https://github.com/Reem-77" target="_blank">
+        <button class="visit-btn"data-aos="zoom-in" data-aos-delay="600">Visit Github</button>
+      </a>
+
+    </header>
+
+    <!-- محتوى الصفحة -->
+    <section class="about"data-aos="fade-up" data-aos-duration="2000">
+      <div class="about-container" data-aos="zoom-in-left" data-aos-duration="2500"> <!--اشوفه بعدين-->
+        <img src="assets/logo.jpeg" alt="mylogo" data-aos="zoom-in" data-aos-delay="400" />
+
+
+        <div class="info-box" data-aos="fade-up" data-aos-delay="700">
+          <div class="text">
+            <h3>Hello, I'm</h3>
+            <h1>Reem Al-Omari</h1>
+            <span class="shine">Information Technology Specialist</span>
+          </div>
+          <div class="btn-group">
+            <button class="btn" onclick="window.open('Reem  Al-Omari.pdf')" data-aos="fade-right">My CV</button>
+            <a href="#contact"><button class="btn"data-aos="fade-left">Contact Info</button></a>
+          </div>
+
+          <div class="socials" data-aos="fade-up" data-aos-delay="1000">
+            <a href="https://github.com/Reem-77"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/reem-alomari-/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div> <!-- نهاية الإطار -->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+ <!-- 2: SUMMARY SECTION -->
+<section id="about" >
+  <h2 class="section-title"data-aos="fade-up" data-aos-duration="700">About Me</h2> 
+  <div class="About-info">
+    <div class="About-grid">
+      <div class="About-grid-card" data-aos="fade-right">
+        <h3 class="major">
+          <span>Information Technology Graduate</span>
+        </h3>
+        <p class="date">
+          <span >Bachelor's Degree in Information Technology (First Honor) | Jazan University | 2024</span>
+        </p>
+        <p>
+          <span>
+   Information Technology graduate with expertise in web development and user experience. I possess comprehensive skills in utilizing programming languages and tools such as Java, HTML, CSS, JavaScript, SQL, and Python. I was honored to receive the Best Project Award at the university level in 2024, reflecting my commitment to innovation and excellence in my field.
+   During my cooperative training, I gained valuable insights in technical support and network programming, where I focused on assessing and enhancing system effectiveness. Additionally, I hold a certification from the Saudi Council of Engineers, which qualifies me as an Information Technology Specialist.
+   I excel in team management, problem-solving flexibility, and effective communication, contributing to the achievement of shared goals and fostering collaborative work environments.
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3: SKILLS SECTION -->
+<section id="Skills" class="skills-wrapper fade-in" data-aos="fade-up" data-aos-duration="800">
+  <div class="skills-section">
+
+   <!-- 🔧 TECHNICAL SKILLS -->
+<h2 class="section-title">Technical Skills</h2>
+<div class="skills-grid">
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+    <h3>Java</h3>
+    <p>Building robust backend systems and object-oriented applications.</p>
+  </div>
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+    <h3>HTML</h3>
+    <p>Creating clean, semantic, and accessible web structures.</p>
+  </div>
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+    <h3>CSS</h3>
+    <p>Designing responsive layouts, smooth animations, and modern interfaces.</p>
+  </div>
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="400">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+    <h3>JavaScript</h3>
+    <p>Building interactive UIs and enhancing user experience with dynamic logic.</p>
+  </div>
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="500">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+    <h3>Python</h3>
+    <p>Automating tasks, data handling, and backend scripting.</p>
+  </div>
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+    <h3>Figma</h3>
+    <p>Designing user-friendly prototypes and modern UI/UX layouts.</p>
+  </div>
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="700">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+    <h3>SQL</h3>
+    <p>Managing databases, optimizing queries, and ensuring data integrity.</p>
+  </div>
+
+  <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" />
+    <h3>Swift</h3>
+    <p>Developing iOS apps with focus on smooth UI and performance.</p>
+  </div>
+</div>
+
+    <!-- 🌟 SOFT SKILLS -->
+     <br>
+     <br>
+     <br>
+     <br>
+
+    <h2 class="section-title soft-title"> Soft Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"data-aos="zoom-in" data-aos-delay="100">
+        <i class="fas fa-comments" style="color:#ff5833;"></i>
+        <h3>Communication</h3>
+        <p>Clear, confident, and collaborative interaction.</p>
+      </div>
+      <div class="skill-card"data-aos="zoom-in" data-aos-delay="200">
+        <i class="fas fa-users" style="color:#33B5FF;"></i>
+        <h3>Teamwork</h3>
+        <p>Supportive, communicative, team-driven and achievement.</p>
+      </div>
+      <div class="skill-card"data-aos="zoom-in" data-aos-delay="300">
+        <i class="fas fa-lightbulb" style="color:#FFC300;"></i>
+        <h3>Creativity</h3>
+        <p>Innovative ideas for design and problem-solving.</p>
+      </div>
+      <div class="skill-card"data-aos="zoom-in" data-aos-delay="400">
+        <i class="fas fa-clock" style="color:#9B59B6;"></i>
+        <h3>Time Management</h3>
+        <p>Prioritization, focus, and on-time delivery.</p>
+      </div>
+      <div class="skill-card"data-aos="zoom-in" data-aos-delay="500">
+        <i class="fas fa-tasks" style="color:#FF33A8;"></i>
+        <h3>Problem Solving</h3>
+        <p>Analytical approach and efficient resolution.</p>
+      </div>
+      <div class="skill-card" data-aos="zoom-in" data-aos-delay="600">
+      <i class="fas fa-seedling" style="color:#19c739;"></i>
+      <h3>Adaptability</h3>
+      <p>Resilient, Growth, learning, evolution.</p>
+     </div>
+      <div class="skill-card" data-aos="zoom-in" data-aos-delay="700"> 
+    <i class="fas fa-magnifying-glass" style="color:#eeeae7;"></i>
+    <h3>Attention to Detail</h3>
+    <p>Precision, quality, consistency.</p>
+</div>
+     <div class="skill-card" data-aos="zoom-in" data-aos-delay="800">
+     <i class="fas fa-diagram-project" style="color:#ff0000;"></i>
+     <h3>Project Management</h3>
+     <p>Planning, leadership, coordination.</p>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section id="projects" class="projects-section" data-aos="fade-up" data-aos-duration="1500">
+  <h2 class="section-titly"> Projects</h2>
+
+  <div class="projects-container">
+    <!-- 🔹 Project 1 -->
+    <div class="project-card"data-aos="fade-right" data-aos-delay="200">
+      <img src="assets/Mutadreb.jpeg" alt="Mutadreb Website" class="project-logo">
+      <div class="project-content">
+        <h3>Mutadreb Website</h3>
+       <h4>✨ Awarded “Best Project” at the 2024 Best Graduation Projects Competition.</h4>
+       <h5> <p>Mutadreb is an innovative digital platform empowering university students to explore and secure cooperative training opportunities. It connects learners with educational institutions through clear, comprehensive information, helping them find programs that truly align with their ambitions.
+        By bridging the gap between academia and the job market, Mutadreb enhances students’ learning journeys, strengthens their skills, and prepares them for real-world success.
+       </p>
+       </h5>
+      </div>
+    </div>
+
+    <!-- 🔹 Project 2 -->
+    <div class="project-card"data-aos="fade-right" data-aos-delay="400">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="FigmaLogo" class="project-logo">
+      <div class="project-content">
+        <h3>Figma project</h3>
+        <h5><p>Designed innovative apps in Figma with a focus on simplicity and usability, including Calculator App with a clean, seamless design, and Natural App, offering an immersive experience that combines natural beauty with nature-inspired touches.</p></h5>
+      </div>
+    </div>
+
+    <!-- 🔹 Project 3 -->
+    <div class="project-card"data-aos="fade-right" data-aos-delay="800">
+      <img src="assets/panda_new.png" alt="panda logo" class="project-logo">
+      <div class="project-content">
+        <h3>Panda website</h3>
+       <h5><p>Panda is a modern e-commerce platform designed to make the shopping experience smoother and more comfortable.
+        It combines simplicity in design with ease of use to offer consumers an enjoyable and reliable digital shopping journey.</p> </h5>
+      </div>
+    </div>
+
+
+<!-- 🔹 Project 4 -->
+    <div class="project-card"data-aos="fade-right" data-aos-delay="1000">
+      <img src="assets/powerbi.jpeg" alt="data anlisys logo" class="project-logo">
+      <div class="project-content">
+        <h3>Power Bi project</h3>
+       <h5><p>Patients Blood Test Dashboard is a smart tool designed to turn complex medical data into clear, actionable insights. It uses Power BI to give healthcare providers a smooth and reliable way to monitor patient health at a glance.</p> </h5>
+      </div>
+    </div>
+
+
+
+<!-- 🔹 Project 5-->
+    <div class="project-card"data-aos="fade-right" data-aos-delay="1000">
+      <img src="assets/Q-System.png" alt="data anlisys logo" class="project-logo">
+      <div class="project-content">
+        <h3>Q-System project</h3>
+       <h5><p>Q-System is a smart queuing platform designed to make hospital wait times smoother and more organized. It integrates WhatsApp API to send real-time alerts, offering patients a reliable and stress-free digital healthcare journey.</p> </h5>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</section>
+
+<section id="Recommendations" class="fade-in py-5"data-aos="fade-up" data-aos-duration="1500">
+  <div class="container text-center">
+    <h2 class="section-title">Recommendations</h2>
+
+    <div class="recommendations-wrapper">
+      <div class="recommendation-card reveal" data-aos="fade-right" data-aos-delay="200">
+        <div class="recommendation-content">
+          <h3>Dr. Mousa Mohammed Khubrani</h3>
+          <p>Dean of Engineering and Computer Science College, Jazan University</p>
+          <p><strong>Phone:</strong> <a href="tel:0173295000/6667">0173295000/6667</a></p>
+          <p><strong>Email:</strong> <a href="mailto:mmkhubrani@jazanu.edu.sa">mmkhubrani@jazanu.edu.sa</a></p>
+        </div>
+      </div>
+
+      <div class="recommendation-card reveal"data-aos="fade-right" data-aos-delay="600">
+        <div class="recommendation-content">
+          <h3>Dr. Mohammed Salem Bashraheel</h3>
+          <p>Lecturer at the Faculty of Engineering and Computer Science Jazan University</p>
+          <p><strong>Phone:</strong> <a href="tel:+966 544 495 963">+966 544 495 963 </a></p>
+          <p><strong>Email:</strong> <a href="mailto:msbashraheel@jazanu.edu.sa">msbashraheel@jazanu.edu.sa</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+
+<section id="contact" data-aos="fade-up" data-aos-duration="1500">
+  <h1 class="title">Contact Me!</h1>
+
+  <!-- حاوية الأيقونات والفورم معًا -->
+  <div class="contact-container">
+    
+    <!-- عمود الأيقونات -->
+    <div class="contact-icons-column">
+      <a href="https://www.linkedin.com/in/reem-alomari-/"
+         target="_blank"
+         class="contact-circle"
+         data-aos="fade-right"
+         data-aos-delay="200">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+
+      <a href="mailto:reem2021y@gmail.com"
+         class="contact-circle"
+         data-aos="fade-in"
+         data-aos-delay="400">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+
+      <a href="https://github.com/Reem-77"
+         target="_blank"
+         class="contact-circle"
+         data-aos="fade-left"
+         data-aos-delay="600">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+
+    <!-- نموذج التواصل -->
+    <div class="contact-form" data-aos="fade-left" data-aos-delay="800">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Enter your email" />
+      </div>
+
+    
+      <div class="form-group">
+        <textarea id="message" rows="4" placeholder="Type your message here... "></textarea>
+         </div>
+
+      <button onclick="sendMail()">
+        <i class="fa-solid fa-paper-plane"></i> Send Message
+      </button>
+
+      <div id="status"></div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ✅ مكتبة AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="sc.js"></script> <!--لربط الملف -->
+
+  </body>
+
+</html>
+
+
+

@@ -1,0 +1,229 @@
+الاساس
+
+
+/* 🧩 Project Cards - Vertical Layout */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+ justify-content: center;
+  margin-top: 60px;
+}
+
+
+
+/* 💎 Card Style */
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: 75%;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 22px;
+  padding: 22px;
+  max-width: 1100px;
+  color: #00ffc8;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0, 255, 200, 0.08);
+  transition: 0.35s ease;
+}
+
+
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 255, 200, 0.3);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+
+
+
+/* 🖼️ Logo — Circular Style */
+.project-logo {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 18px; /* يجعل اللوقو دائري */
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 255, 204, 0.15);
+}
+
+
+.project-card:hover .project-logo {
+  transform: scale(1.12);
+  box-shadow: 0 0 18px rgba(0, 255, 204, 0.4);
+}
+
+
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* 🧠 Content */
+.project-content {
+  text-align: left;
+}
+
+.project-content h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.project-content p {
+  font-size: 0.80rem;
+  color: #7abbac;
+  line-height: 1.2;
+  margin-top: 8px;
+}
+
+
+/* زر رؤية المشروع */
+.project-btn {
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  color: #001d14;
+  background: #00ffc8;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.project-btn:hover {
+  background: #00dab0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.project-card-new {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  width: 75%;
+  background: rgba(0, 255, 200, 0.04);
+  padding: 22px;
+  border-radius: 22px;
+  border: 1px solid rgba(0, 255, 200, 0.18);
+  box-shadow: 0 0 18px rgba(0, 255, 200, 0.1);
+  backdrop-filter: blur(10px);
+  transition: 0.35s ease;
+}
+
+.project-card-new:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 35px rgba(0, 255, 200, 0.38);
+}
+
+/* الصورة */
+.project-image {
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.25);
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* النص */
+.project-details h3 {
+  color: #00ffc8;
+  margin-bottom: 8px;
+  font-size: 1.6rem;
+}
+
+.project-details p {
+  color: #d7fff6;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* زر رؤية المشروع */
+.project-btn {
+  display: inline-block;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  color: #001d14;
+  background: #00ffc8;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.project-btn:hover {
+  background: #00dab0;
+}
